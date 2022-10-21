@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------------------------------
+Recursos
+------------------------------------------------------------------------------------------------------------------
+
+Jenkins Tech-Ambassador:
+http://34.71.117.148:8080/
+
+Jenkins User / Password:
+user1 / user1
+user2 / user2
+user3 / user3
+user4 / user4
+user5 / user5
+
+Repositorio Jenkins Essentials:
+https://github.com/johanfabi/jenkins-essentials.git
+
+Instalación Jenkins:
+https://www.jenkins.io/doc/book/installing/
+
+Imagenes de Docker para Jenkins:
+https://hub.docker.com/r/jenkins/jenkins
+

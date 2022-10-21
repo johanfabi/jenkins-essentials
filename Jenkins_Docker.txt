@@ -1,0 +1,16 @@
+------------------------------------------------------------------------------------------------------------------
+Iniciar Contenedor Docker en Jenkins
+------------------------------------------------------------------------------------------------------------------
+
+Pre-Requisitos:
+1.-  Tener instalado Docker.
+
+Comando Docker:
+docker run --rm --name jenkins -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:jdk11
+
+Ingresar a Jenkins:
+1.- http://<ip_servidor_docker>:8080
+2.- Durante el primer ingreso, solicitara el "Administrator Password" que nos entrega por terminal cuando inicia el contenedor.
+    2.1.- Si no vemos el "Administrador Password" debemos conectarnos al contenedor y consultar el siguiente archivo:
+    Conectarse al contenedor: docker exec -ti jenkins bash
+    Comando: cat /var/lib/jenkins/secrets/initialAdminPassword
